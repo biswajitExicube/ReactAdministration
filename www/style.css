@@ -1,0 +1,32 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.headerBar{
+    padding: 0px !important;
+    position: relative;
+    z-index: 1;
+}
+.headerBar .navbar{
+    border-bottom: 1px solid #c2cfd6;
+    margin-bottom: 0px;
+}
+.headerBar .navbar .container{
+    width: 100% !important;
+}
+
+.sideBarLeft{
+    width: 256px;
+    position: absolute;
+    top: 0px;
+}
+.sideBarLeft .list-group{
+    margin-top: 51px;
+}
+.mainBody{
+    position: absolute;
+}
+.mainBodyContent{
+    margin-top: 51px;
+}
